@@ -1,23 +1,77 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" type="text/css" href="./RecursosGenerales/Miestilo.css">
+    <link rel="stylesheet" type="text/css" href="./Fuentedelaverdad/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Nombre de Pagina</title>
 </head>
+
 <body>
-    <div>
-        <span>
-            <ul>
-                <li>Inicio</li>
-                <li>Cv</li>
-            </ul>
-        </span>
+
+    <div class="w3-bar w3-light-grey">
+  <a href="#" class="w3-bar-item w3-button w3-hover-blue">Home</a>
+  <a href="#" class="w3-bar-item w3-button w3-hover-blue">CV</a>
+  <div class="w3-dropdown-hover">
+    <button class="w3-button w3-hover-blue">Juegos</button>
+    <div class="w3-dropdown-content w3-bar-block w3-card-4">
+      <a href="#" class="w3-bar-item w3-button">Juego 1</a>
+      <a href="#" class="w3-bar-item w3-button">Juego 2</a>
+      <a href="#" class="w3-bar-item w3-button">Juego 3</a>
     </div>
-    <br>
-    
-    <div>No tenemos nada aun u.u</div>
+  </div>
+</div>
+
+      <div class="w3-content w3-display-container">
+
+        <div class="w3-display-container mySlides">
+          <img src="./Fuentedelaverdad/juego/Imagenes/FatZombie.png" style="width:100%">
+          <div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black">
+            Trolltunga, Norway
+          </div>
+        </div>
+        
+        <div class="w3-display-container mySlides">
+          <img src="./Fuentedelaverdad/juego/Imagenes/generic_platformer_tiles.png" style="width:100%">
+          <div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black">
+            Northern Lights, Norway
+          </div>
+        </div>
+        
+        <div class="w3-display-container mySlides">
+          <img src="./Fuentedelaverdad/juego/Imagenes/Arcade - Metal Slug 5 - Elite Ptolemaic.png" style="width:100%">
+          <div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black">
+            Beautiful Mountains
+          </div>
+        </div>
+        
+        <div class="w3-display-container mySlides">
+          <img src="img_forest.jpg" style="width:100%">
+          <div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black">
+            The Rain Forest
+          </div>
+        </div>
+        
+        <div class="w3-display-container mySlides">
+          <img src="img_mountains.jpg" style="width:100%">
+          <div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black">
+            Mountains!
+          </div>
+        </div>
+        
+        <button class="w3-button w3-display-left w3-black" onclick="plusDivs(-1)">&#10094;</button>
+        <button class="w3-button w3-display-right w3-black" onclick="plusDivs(1)">&#10095;</button>
+        
+        </div>
+
+    <script src="./Fuentedelaverdad/inicio/carusel.js"></script>
+    <script src="./Fuentedelaverdad/inicio/dropdown.js"></script>
 </body>
+<footer>
+
+</footer>
+
 </html>
